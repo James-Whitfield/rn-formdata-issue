@@ -4,9 +4,11 @@ There appears to be an issue with react native when sending [formdata](https://d
 
 There is a previous closed issue with no solution provided [here](https://github.com/facebook/react-native/issues/37268)
 
-The issue only appears when the formdata object has over ___ keys.
+The issue only appears when the FormData object has over 300 keys.
 
 This repo has been created to reproduce the issue. A single button has been added to the home screen which will cause the crash.
+
+This issue does not occur on any android device tested.
 
 ## Reproduction Steps
 
